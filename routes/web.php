@@ -37,7 +37,7 @@ Route::middleware('auth')->group( function(){
     });
 
     Route::group([
-        'as'=>'patient'
+        'as'=>'patient.'
     ], function(){
         Route::get('/charts',[PatientController::class,'chats'])->name('chats');
         Route::get('/favourite-doctors',[PatientController::class,'favourite'])->name('favourites');
