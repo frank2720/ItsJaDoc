@@ -123,12 +123,12 @@
 							<div class="doctor-widget">
 								<div class="doc-info-left">
 									<div class="doctor-img">
-										<a href="doctor-profile.html">
+										<a href="{{route('doctor.profile')}}">
 											<img src="assets/img/doctors/doctor-thumb-01.jpg" class="img-fluid" alt="User Image">
 										</a>
 									</div>
 									<div class="doc-info-cont">
-										<h4 class="doc-name"><a href="doctor-profile.html">Dr. Ruby Perrin</a></h4>
+										<h4 class="doc-name"><a href="{{route('doctor.profile')}}">Dr. Ruby Perrin</a></h4>
 										<p class="doc-speciality">MDS - Periodontology and Oral Implantology, BDS</p>
 										<h5 class="doc-department"><img src="assets/img/specialities/specialities-05.png" class="img-fluid" alt="Speciality">Dentist</h5>
 										<div class="rating">
@@ -180,7 +180,7 @@
 										</ul>
 									</div>
 									<div class="clinic-booking">
-										<a class="view-pro-btn" href="doctor-profile.html">View Profile</a>
+										<a class="view-pro-btn" href="{{route('doctor.profile')}}">View Profile</a>
 										<a class="apt-btn" href="booking.html">Book Appointment</a>
 									</div>
 								</div>
@@ -195,12 +195,12 @@
 							<div class="doctor-widget">
 								<div class="doc-info-left">
 									<div class="doctor-img">
-										<a href="doctor-profile.html">
+										<a href="{{route('doctor.profile')}}">
 											<img src="assets/img/doctors/doctor-thumb-02.jpg" class="img-fluid" alt="User Image">
 										</a>
 									</div>
 									<div class="doc-info-cont">
-										<h4 class="doc-name"><a href="doctor-profile.html">Dr. Darren Elder</a></h4>
+										<h4 class="doc-name"><a href="{{route('doctor.profile')}}">Dr. Darren Elder</a></h4>
 										<p class="doc-speciality">BDS, MDS - Oral & Maxillofacial Surgery</p>
 										<h5 class="doc-department"><img src="assets/img/specialities/specialities-05.png" class="img-fluid" alt="Speciality">Dentist</h5>
 										<div class="rating">
@@ -252,7 +252,7 @@
 										</ul>
 									</div>
 									<div class="clinic-booking">
-										<a class="view-pro-btn" href="doctor-profile.html">View Profile</a>
+										<a class="view-pro-btn" href="{{route('doctor.profile')}}">View Profile</a>
 										<a class="apt-btn" href="booking.html">Book Appointment</a>
 									</div>
 								</div>
@@ -267,12 +267,12 @@
 							<div class="doctor-widget">
 								<div class="doc-info-left">
 									<div class="doctor-img">
-										<a href="doctor-profile.html">
+										<a href="{{route('doctor.profile')}}">
 											<img src="assets/img/doctors/doctor-thumb-03.jpg" class="img-fluid" alt="User Image">
 										</a>
 									</div>
 									<div class="doc-info-cont">
-										<h4 class="doc-name"><a href="doctor-profile.html">Dr. Deborah Angel</a></h4>
+										<h4 class="doc-name"><a href="{{route('doctor.profile')}}">Dr. Deborah Angel</a></h4>
 										<p class="doc-speciality">MBBS, MD - General Medicine, DNB - Cardiology</p>
 										<p class="doc-department"><img src="assets/img/specialities/specialities-04.png" class="img-fluid" alt="Speciality">Cardiology</p>
 										<div class="rating">

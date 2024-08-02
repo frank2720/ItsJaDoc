@@ -21,4 +21,9 @@ class HomeController extends Controller
     {
         return view('search');
     }
+
+    public function doctor_profile()
+    {
+        return view('doctor.profile');
+    }
 }

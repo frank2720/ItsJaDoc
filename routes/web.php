@@ -1,10 +1,11 @@
 <?php
 
-use App\Http\Controllers\Admin\AdminController;
-use App\Http\Controllers\Doctors\DoctorController;
-use App\Http\Controllers\General\HomeController;
-use App\Http\Controllers\Patients\PatientController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\General\HomeController;
+use App\Http\Controllers\Doctors\DoctorController;
+use App\Http\Controllers\Patients\PatientController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +23,8 @@ Route::get('/home',[HomeController::class,'index'])->name('home');
 
 Route::get('/calendar',[HomeController::class,'calendar'])->name('calendar');
 Route::get('/doctor-dashboard',[DoctorController::class,'index'])->name('doctor.home');
+
+Route::get('/doctor-profile',[HomeController::class,'doctor_profile'])->name('doctor.profile');
 Route::get('/patient-dashboard',[PatientController::class,'index'])->name('patient.home');
 Route::get('/charts',[PatientController::class,'chats'])->name('patient.chats');
 Route::get('/favourite-doctors',[PatientController::class,'favourite'])->name('patient.favourites');
