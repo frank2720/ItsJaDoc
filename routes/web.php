@@ -20,8 +20,11 @@ use App\Http\Controllers\Patients\PatientController;
 
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/home',[HomeController::class,'index'])->name('home');
-Route::get('/search-doctors',[HomeController::class,'search'])->name('patient.search');
 Route::get('/calendar',[HomeController::class,'calendar'])->name('calendar');
+
+Route::get('/search-doctors',[HomeController::class,'search'])->name('patient.search');
+Route::get('/doctor-profile',[HomeController::class,'doctor_profile'])->name('doctor.profile');
+
 
 Route::middleware('auth')->group( function(){
 
@@ -49,7 +52,6 @@ Route::middleware('auth')->group( function(){
         'middleware'=>'is_doctor'
     ],function(){
         Route::get('/doctor-dashboard',[DoctorController::class,'index'])->name('home');
-        Route::get('/doctor-profile',[HomeController::class,'doctor_profile'])->name('profile');
     });
 });
 
