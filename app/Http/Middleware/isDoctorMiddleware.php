@@ -15,7 +15,7 @@ class isDoctorMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if(!auth()->check()|| !auth()->user()->user_type == 'Doctor')
+        if(!auth()->check()|| auth()->user()->user_type !== 'Doctor')
         {
             abort(code:403);
         }

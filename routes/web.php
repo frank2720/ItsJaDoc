@@ -25,8 +25,16 @@ Route::get('/calendar',[HomeController::class,'calendar'])->name('calendar');
 
 Route::middleware('auth')->group( function(){
 
-    Route::get('/admin-dashboard',[AdminController::class,'index'])->name('admin.home');
-    Route::get('/appointments',[DoctorController::class,'appointment'])->name('appointments');
+    Route::middleware('is_admin')->group(function(){
+
+        Route::get('/appointments',[DoctorController::class,'appointment'])->name('appointments');
+
+        Route::group([
+            'as'=>'admin.'
+        ],function(){
+            Route::get('/admin-dashboard',[AdminController::class,'index'])->name('home');
+        });
+    });
 
     Route::group([
         'as'=>'patient.'

@@ -2,6 +2,7 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\isAdminMiddleware;
 use App\Http\Middleware\isDoctorMiddleware;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -65,5 +66,6 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
         'is_doctor' => isDoctorMiddleware::class,
+        'is_admin' => isAdminMiddleware::class,
     ];
 }
