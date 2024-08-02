@@ -20,17 +20,29 @@ use App\Http\Controllers\Patients\PatientController;
 
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/home',[HomeController::class,'index'])->name('home');
-
-Route::get('/calendar',[HomeController::class,'calendar'])->name('calendar');
-Route::get('/doctor-dashboard',[DoctorController::class,'index'])->name('doctor.home');
-
-Route::get('/doctor-profile',[HomeController::class,'doctor_profile'])->name('doctor.profile');
-Route::get('/patient-dashboard',[PatientController::class,'index'])->name('patient.home');
-Route::get('/charts',[PatientController::class,'chats'])->name('patient.chats');
-Route::get('/favourite-doctors',[PatientController::class,'favourite'])->name('patient.favourites');
-
 Route::get('/search-doctors',[HomeController::class,'search'])->name('patient.search');
+Route::get('/calendar',[HomeController::class,'calendar'])->name('calendar');
 
-Route::get('/admin-dashboard',[AdminController::class,'index'])->name('admin.home');
-Route::get('/appointments',[DoctorController::class,'appointment'])->name('appointments');
+Route::middleware('auth')->group( function(){
+
+    Route::get('/admin-dashboard',[AdminController::class,'index'])->name('admin.home');
+    Route::get('/appointments',[DoctorController::class,'appointment'])->name('appointments');
+
+    Route::group([
+        'as'=>'patient.'
+    ], function(){
+        Route::get('/charts',[PatientController::class,'chats'])->name('chats');
+        Route::get('/favourite-doctors',[PatientController::class,'favourite'])->name('favourites');
+        Route::get('/patient-dashboard',[PatientController::class,'index'])->name('home');
+    });
+
+    Route::group([
+        'as'=>'doctor.',
+        'middleware'=>'is_doctor'
+    ],function(){
+        Route::get('/doctor-dashboard',[DoctorController::class,'index'])->name('home');
+        Route::get('/doctor-profile',[HomeController::class,'doctor_profile'])->name('profile');
+    });
+});
+
 Auth::routes();
