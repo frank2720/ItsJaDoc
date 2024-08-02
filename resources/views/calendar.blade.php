@@ -1,4 +1,7 @@
 @extends('layouts.main')
+@section('title')
+	{{__('calendar')}}
+@endsection
 @section('page')
     <!-- Breadcrumb -->
 			<div class="breadcrumb-bar">
