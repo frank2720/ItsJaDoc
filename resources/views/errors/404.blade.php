@@ -8,7 +8,7 @@
         <title>Error 404</title>
 		
 		<!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="admin/assets/img/logo.png">
+        <link rel="shortcut icon" type="image/x-icon" href="">
 		
 		<!-- Bootstrap CSS -->
         <link rel="stylesheet" href="admin/assets/css/bootstrap.min.css">
