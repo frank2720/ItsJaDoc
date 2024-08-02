@@ -124,7 +124,7 @@
                             <!-- Doctor Widget -->
                             <div class="profile-widget">
                                 <div class="doc-img">
-                                    <a href="doctor-profile.html">
+                                    <a href="{{route('doctor.profile')}}">
                                         <img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-01.jpg">
                                     </a>
                                     <a href="javascript:void(0)" class="fav-btn">
@@ -133,7 +133,7 @@
                                 </div>
                                 <div class="pro-content">
                                     <h3 class="title">
-                                        <a href="doctor-profile.html">Ruby Perrin</a> 
+                                        <a href="{{route('doctor.profile')}}">Ruby Perrin</a> 
                                         <i class="fas fa-check-circle verified"></i>
                                     </h3>
                                     <p class="speciality">MDS - Periodontology and Oral Implantology, BDS</p>
@@ -159,10 +159,10 @@
                                     </ul>
                                     <div class="row row-sm">
                                         <div class="col-6">
-                                            <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+                                            <a href="{{route('doctor.profile')}}" class="btn view-btn">View Profile</a>
                                         </div>
                                         <div class="col-6">
-                                            <a href="booking.html" class="btn book-btn">Book Now</a>
+                                            <a href="" class="btn book-btn">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -172,7 +172,7 @@
                             <!-- Doctor Widget -->
                             <div class="profile-widget">
                                 <div class="doc-img">
-                                    <a href="doctor-profile.html">
+                                    <a href="{{route('doctor.profile')}}">
                                         <img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-02.jpg">
                                     </a>
                                     <a href="javascript:void(0)" class="fav-btn">
@@ -181,7 +181,7 @@
                                 </div>
                                 <div class="pro-content">
                                     <h3 class="title">
-                                        <a href="doctor-profile.html">Darren Elder</a> 
+                                        <a href="{{route('doctor.profile')}}">Darren Elder</a> 
                                         <i class="fas fa-check-circle verified"></i>
                                     </h3>
                                     <p class="speciality">BDS, MDS - Oral & Maxillofacial Surgery</p>
@@ -207,10 +207,10 @@
                                     </ul>
                                     <div class="row row-sm">
                                         <div class="col-6">
-                                            <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+                                            <a href="{{route('doctor.profile')}}" class="btn view-btn">View Profile</a>
                                         </div>
                                         <div class="col-6">
-                                            <a href="booking.html" class="btn book-btn">Book Now</a>
+                                            <a href="" class="btn book-btn">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -220,7 +220,7 @@
                             <!-- Doctor Widget -->
                             <div class="profile-widget">
                                 <div class="doc-img">
-                                    <a href="doctor-profile.html">
+                                    <a href="{{route('doctor.profile')}}">
                                         <img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-03.jpg">
                                     </a>
                                     <a href="javascript:void(0)" class="fav-btn">
@@ -229,7 +229,7 @@
                                 </div>
                                 <div class="pro-content">
                                     <h3 class="title">
-                                        <a href="doctor-profile.html">Deborah Angel</a> 
+                                        <a href="{{route('doctor.profile')}}">Deborah Angel</a> 
                                         <i class="fas fa-check-circle verified"></i>
                                     </h3>
                                     <p class="speciality">MBBS, MD - General Medicine, DNB - Cardiology</p>
@@ -255,10 +255,10 @@
                                     </ul>
                                     <div class="row row-sm">
                                         <div class="col-6">
-                                            <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+                                            <a href="{{route('doctor.profile')}}" class="btn view-btn">View Profile</a>
                                         </div>
                                         <div class="col-6">
-                                            <a href="booking.html" class="btn book-btn">Book Now</a>
+                                            <a href="" class="btn book-btn">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -268,7 +268,7 @@
                             <!-- Doctor Widget -->
                             <div class="profile-widget">
                                 <div class="doc-img">
-                                    <a href="doctor-profile.html">
+                                    <a href="{{route('doctor.profile')}}">
                                         <img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-04.jpg">
                                     </a>
                                     <a href="javascript:void(0)" class="fav-btn">
@@ -277,7 +277,7 @@
                                 </div>
                                 <div class="pro-content">
                                     <h3 class="title">
-                                        <a href="doctor-profile.html">Sofia Brient</a> 
+                                        <a href="{{route('doctor.profile')}}">Sofia Brient</a> 
                                         <i class="fas fa-check-circle verified"></i>
                                     </h3>
                                     <p class="speciality">MBBS, MS - General Surgery, MCh - Urology</p>
@@ -303,10 +303,10 @@
                                     </ul>
                                     <div class="row row-sm">
                                         <div class="col-6">
-                                            <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+                                            <a href="{{route('doctor.profile')}}" class="btn view-btn">View Profile</a>
                                         </div>
                                         <div class="col-6">
-                                            <a href="booking.html" class="btn book-btn">Book Now</a>
+                                            <a href="" class="btn book-btn">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -316,7 +316,7 @@
                             <!-- Doctor Widget -->
                             <div class="profile-widget">
                                 <div class="doc-img">
-                                    <a href="doctor-profile.html">
+                                    <a href="{{route('doctor.profile')}}">
                                         <img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-05.jpg">
                                     </a>
                                     <a href="javascript:void(0)" class="fav-btn">
@@ -325,7 +325,7 @@
                                 </div>
                                 <div class="pro-content">
                                     <h3 class="title">
-                                        <a href="doctor-profile.html">Marvin Campbell</a> 
+                                        <a href="{{route('doctor.profile')}}">Marvin Campbell</a> 
                                         <i class="fas fa-check-circle verified"></i>
                                     </h3>
                                     <p class="speciality">MBBS, MD - Ophthalmology, DNB - Ophthalmology</p>
@@ -351,10 +351,10 @@
                                     </ul>
                                     <div class="row row-sm">
                                         <div class="col-6">
-                                            <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+                                            <a href="{{route('doctor.profile')}}" class="btn view-btn">View Profile</a>
                                         </div>
                                         <div class="col-6">
-                                            <a href="booking.html" class="btn book-btn">Book Now</a>
+                                            <a href="" class="btn book-btn">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -364,7 +364,7 @@
                             <!-- Doctor Widget -->
                             <div class="profile-widget">
                                 <div class="doc-img">
-                                    <a href="doctor-profile.html">
+                                    <a href="{{route('doctor.profile')}}">
                                         <img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-06.jpg">
                                     </a>
                                     <a href="javascript:void(0)" class="fav-btn">
@@ -373,7 +373,7 @@
                                 </div>
                                 <div class="pro-content">
                                     <h3 class="title">
-                                        <a href="doctor-profile.html">Katharine Berthold</a> 
+                                        <a href="{{route('doctor.profile')}}">Katharine Berthold</a> 
                                         <i class="fas fa-check-circle verified"></i>
                                     </h3>
                                     <p class="speciality">MS - Orthopaedics, MBBS, M.Ch - Orthopaedics</p>
@@ -402,7 +402,7 @@
                                             <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
                                         </div>
                                         <div class="col-6">
-                                            <a href="booking.html" class="btn book-btn">Book Now</a>
+                                            <a href="" class="btn book-btn">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -447,10 +447,10 @@
                                     </ul>
                                     <div class="row row-sm">
                                         <div class="col-6">
-                                            <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+                                            <a href="{{route('doctor.profile')}}" class="btn view-btn">View Profile</a>
                                         </div>
                                         <div class="col-6">
-                                            <a href="booking.html" class="btn book-btn">Book Now</a>
+                                            <a href="" class="btn book-btn">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -460,7 +460,7 @@
                             <!-- Doctor Widget -->
                             <div class="profile-widget">
                                 <div class="doc-img">
-                                    <a href="doctor-profile.html">
+                                    <a href="{{route('doctor.profile')}}">
                                         <img class="img-fluid" alt="User Image" src="assets/img/doctors/doctor-08.jpg">
                                     </a>
                                     <a href="javascript:void(0)" class="fav-btn">
@@ -469,7 +469,7 @@
                                 </div>
                                 <div class="pro-content">
                                     <h3 class="title">
-                                        <a href="doctor-profile.html">Paul Richard</a> 
+                                        <a href="{{route('doctor.profile')}}">Paul Richard</a> 
                                         <i class="fas fa-check-circle verified"></i>
                                     </h3>
                                     <p class="speciality">MBBS, MD - Dermatology , Venereology & Lepros</p>
@@ -495,10 +495,10 @@
                                     </ul>
                                     <div class="row row-sm">
                                         <div class="col-6">
-                                            <a href="doctor-profile.html" class="btn view-btn">View Profile</a>
+                                            <a href="{{route('doctor.profile')}}" class="btn view-btn">View Profile</a>
                                         </div>
                                         <div class="col-6">
-                                            <a href="booking.html" class="btn book-btn">Book Now</a>
+                                            <a href="" class="btn book-btn">Book Now</a>
                                         </div>
                                     </div>
                                 </div>
