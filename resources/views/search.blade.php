@@ -10,7 +10,7 @@
 				<div class="col-md-8 col-12">
 					<nav aria-label="breadcrumb" class="page-breadcrumb">
 						<ol class="breadcrumb">
-							<li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+							<li class="breadcrumb-item"><a href="">Home</a></li>
 							<li class="breadcrumb-item active" aria-current="page">Search</li>
 						</ol>
 					</nav>
@@ -181,7 +181,7 @@
 									</div>
 									<div class="clinic-booking">
 										<a class="view-pro-btn" href="{{route('doctor.profile')}}">View Profile</a>
-										<a class="apt-btn" href="booking.html">Book Appointment</a>
+										<a class="apt-btn" href="">Book Appointment</a>
 									</div>
 								</div>
 							</div>
@@ -253,7 +253,7 @@
 									</div>
 									<div class="clinic-booking">
 										<a class="view-pro-btn" href="{{route('doctor.profile')}}">View Profile</a>
-										<a class="apt-btn" href="booking.html">Book Appointment</a>
+										<a class="apt-btn" href="">Book Appointment</a>
 									</div>
 								</div>
 							</div>
@@ -325,7 +325,7 @@
 									</div>
 									<div class="clinic-booking">
 										<a class="view-pro-btn" href="doctor-profile.html">View Profile</a>
-										<a class="apt-btn" href="booking.html">Book Appointment</a>
+										<a class="apt-btn" href="">Book Appointment</a>
 									</div>
 								</div>
 							</div>
@@ -397,7 +397,7 @@
 									</div>
 									<div class="clinic-booking">
 										<a class="view-pro-btn" href="doctor-profile.html">View Profile</a>
-										<a class="apt-btn" href="booking.html">Book Appointment</a>
+										<a class="apt-btn" href="">Book Appointment</a>
 									</div>
 								</div>
 							</div>
@@ -469,7 +469,7 @@
 									</div>
 									<div class="clinic-booking">
 										<a class="view-pro-btn" href="doctor-profile.html">View Profile</a>
-										<a class="apt-btn" href="booking.html">Book Appointment</a>
+										<a class="apt-btn" href="">Book Appointment</a>
 									</div>
 								</div>
 							</div>
